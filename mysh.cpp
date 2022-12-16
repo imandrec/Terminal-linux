@@ -16,6 +16,7 @@ using namespace std;
 
 struct shell_info *shell;
 
+
 struct termios old_termios, new_termios; // use to handel CTRL+D signal
 
 int get_job_id_by_pid(int pid) {
